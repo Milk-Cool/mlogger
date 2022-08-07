@@ -1,0 +1,7 @@
+#!/usr/bin/bash
+
+if [[ $LOGPATH == "" ]]; then
+	LOGPATH="$HOME/$1.log";
+fi
+
+$@ &> $LOGPATH
