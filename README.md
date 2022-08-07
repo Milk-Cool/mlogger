@@ -5,6 +5,10 @@ A basic logger written in Bash.
 ```bash
 curl https://pastebin.com/raw/BNk5vpnB | bash
 ```
+...or, with root rights:
+```bash
+curl https://pastebin.com/raw/G2pMNYzx | bash
+```
 
 ## Usage
 ```bash
